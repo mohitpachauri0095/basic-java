@@ -8,7 +8,7 @@ public class main {
         // nextFloat() -- decimal number type 
         // nextDouble
         // so more 
-        System.out.println(name);
+        System.out.println(name);   
         
     }
 }
