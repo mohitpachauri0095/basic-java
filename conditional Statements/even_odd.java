@@ -6,7 +6,14 @@ public class even_odd {
         int x = sc.nextInt();
         
 
-        if (x %2 == 0){
+        // if (x %2 == 0){
+        //     System.out.println("even");
+        // } else {
+        //     System.out.println("odd");
+        // }
+
+
+        if (x % 2 == 0){
             System.out.println("even");
         } else {
             System.out.println("odd");
