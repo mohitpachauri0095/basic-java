@@ -46,14 +46,14 @@ public class main {
         for (int i = 0; i < A.length(); i++) {
             char ch = A.charAt(i);
 
-            // closing bracket mila
+          
             if (ch == ')') {
                 char top = stack.peek();
                 boolean isRedundant = true;
 
-                // jab tak '(' na mile
+         
                 while (top != '(') {
-                    // agar operator mila → not redundant
+                   
                     if (top == '+' || top == '-' || top == '*' || top == '/') {
                         isRedundant = false;
                     }
@@ -61,10 +61,10 @@ public class main {
                     top = stack.peek();
                 }
 
-                // '(' remove karo
+              
                 stack.pop();
 
-                // agar operator nahi mila → redundant
+                
                 if (isRedundant) return 1;
             } else {
                 stack.push(ch);
@@ -78,8 +78,8 @@ public class main {
         String s2 = "((a+b))";
         String s3 = "(a+(b)/c)";
 
-        System.out.println(hasRedundantBraces(s1)); // 0
-        System.out.println(hasRedundantBraces(s2)); // 1
-        System.out.println(hasRedundantBraces(s3)); // 1
+        System.out.println(hasRedundantBraces(s1)); 
+        System.out.println(hasRedundantBraces(s2)); 
+        System.out.println(hasRedundantBraces(s3)); 
     }
 }
