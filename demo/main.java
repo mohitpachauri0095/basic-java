@@ -50,8 +50,6 @@ public class main {
             if (ch == ')') {
                 char top = stack.peek();
                 boolean isRedundant = true;
-
-         
                 while (top != '(') {
                    
                     if (top == '+' || top == '-' || top == '*' || top == '/') {
@@ -60,8 +58,6 @@ public class main {
                     stack.pop();
                     top = stack.peek();
                 }
-
-              
                 stack.pop();
 
                 
