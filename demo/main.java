@@ -72,7 +72,7 @@ public class main {
         }
         return 0;
     }   
-
+   
     public static void main(String[] args) {
         String s1 = "(a+b)";
         String s2 = "((a+b))";
