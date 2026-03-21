@@ -77,5 +77,5 @@ public class main {
         System.out.println(hasRedundantBraces(s1)); 
         System.out.println(hasRedundantBraces(s2));     
         System.out.println(hasRedundantBraces(s3)); 
-    }
+    }  
 }
