@@ -56,7 +56,7 @@ public class main {
                         isRedundant = false;
                     }
                     stack.pop();
-                    top = stack.peek();
+                    top = stack.peek(); 
                 }
                 stack.pop();
 
