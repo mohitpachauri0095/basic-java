@@ -75,7 +75,7 @@ public class main {
         String s3 = "(a+(b)/c)";
 
         System.out.println(hasRedundantBraces(s1)); 
-        System.out.println(hasRedundantBraces(s2)); 
+        System.out.println(hasRedundantBraces(s2));     
         System.out.println(hasRedundantBraces(s3)); 
     }
 }
