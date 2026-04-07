@@ -6,6 +6,6 @@ public class Switch{
         System.out.println(a);
 
                  
-
+    
     }
 }
