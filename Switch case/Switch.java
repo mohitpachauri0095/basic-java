@@ -5,7 +5,7 @@ public class Switch{
         int a = sc.nextInt();
         System.out.println(a);
 
-                       
+                         
                  
     }
 }
